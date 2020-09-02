@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(149, 153, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    text-align: left;
+    font-size: 40px;
+    background: black;
+    padding:20px;
+    color:white;
+}
+section{
+  background: white;
+  padding:40px;
+  display: flex;
+  flex-direction: row ;
+}
+footer{
+  background: black;
+  padding:20px;
+  color:white;
+}
+  
+p {
+    font-size: 20px;
+  }
+
+button{
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 24px; 
+    border-radius:8px; /*Makes the button rounded*/
+    border: 2px solid #000000; 
+    color: grey;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+button:hover{
+    background-color: #000000;
+  }
+  
+div{
+    background:red;
+    margin: auto;
+    width: 50px;
+    height: 20px;
+    
+  }
+
+nav ul{
+    margin: 0px;
+    list-style-type: none;
+    text-align: right;
+  }
+
+nav li{
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 25px;
+    
+  }
+
+nav li a{
+    color:rgb(0, 0, 0);
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+nav li a:hover{
+    color: grey;
+    text-decoration: underline;
+  }
+
+  div.example-link a{
+    width: 50px;
+  }
+  
+  #h-exmp ul{
+  background:white;
+  margin: 15px 0px 10px 0px;
+}
+
+section.LBI a{
+  color: grey;
+  margin: 15px 300px 200px 500px;
+  padding: 60px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  position: relative;
+  
+}
+
+section.LBI button{
+  color: gray;
+  margin: 15px 33% 175px 30px;
+  padding: 30px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  position: relative;
+  
+}
+
+section.LBI img{
+  margin: 15px 25px 100px 10px
+}
